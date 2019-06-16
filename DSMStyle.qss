@@ -1,0 +1,234 @@
+*{
+    outline: none;
+    font: 14px "微软雅黑";
+    color: #222230;
+    font-weight: bold;
+    background-color: white;
+    border:none;
+}
+
+QLabel#label_1,
+QLabel#label_2,
+QLabel#label_3,
+QLabel#label_5,
+QLabel#lb_mac,
+QLabel#lb_ppc {
+	color: #aab;
+}
+
+QTableWidget{
+    border: 1px solid #222230;
+	outline: none;
+}
+QTableWidget::item{
+	selection-background-color: #222230;
+	selection-color: white;
+}
+
+QPushButton{
+    border: 1px solid #222230;
+    padding: 6px 12px;
+}
+QPushButton:checked:hover{
+	border: 1px solid #000016;
+	background: #000016;
+	color: white;
+}
+QPushButton:hover{
+    border: 1px solid  #222230;
+    background: #222230;
+    color: white;
+}
+QPushButton:pressed{
+    border: 1px solid #000016;
+    background: #000016;
+    color: white;
+}
+QPushButton:disabled{
+    border: 1px solid #aab;
+    color: #aab;
+}
+QPushButton:checked{
+	border: 1px solid #222230;
+	color: white;
+	background: #222230;
+}
+
+QHeaderView::section {
+    background: transparent;
+    color:  #222230;
+    padding-top: 6px;
+    border: 1px solid #222230;
+    border-left: none;
+    border-top: none;
+}
+
+
+QScrollBar:vertical
+{
+    width:10px;
+    background: white;
+}
+QScrollBar::handle:vertical
+{
+    width:8px;
+    background: #ccd;
+    border-radius: 3px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+QScrollBar::handle:vertical:hover
+{
+    background: #aab;
+}
+QScrollBar::add-line:vertical
+{
+    border-color: transparent;
+}
+QScrollBar::sub-line:vertical
+{
+    border-color: transparent;
+}
+QScrollBar::add-line:vertical:hover
+{
+    border-color: transparent;
+}
+QScrollBar::sub-line:vertical:hover
+{
+    border-color: transparent;
+}
+
+
+
+QScrollBar:horizontal
+{
+    height:12px;
+    background: white;
+}
+QScrollBar::handle:horizontal
+{
+    height:8px;
+    background: #ccd;
+    border-radius: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+QScrollBar::handle:horizontal:hover
+{
+    background: #aab;
+}
+QScrollBar::add-line:horizontal
+{
+    border-color: transparent;
+}
+QScrollBar::sub-line:horizontal
+{
+    border-color: transparent;
+}
+QScrollBar::add-line:horizontal:hover
+{
+    border-color: transparent;
+}
+QScrollBar::sub-line:horizontal:hover
+{
+    border-color: transparent;
+}
+
+
+QLineEdit{
+    border: none;
+    min-width: 170px;
+    border-bottom: 1px solid #778;
+}
+QLineEdit:hover{
+    color: #fff;
+    min-width: 170px;
+    border-bottom: 1px solid #2255ff;
+}
+
+
+
+
+/* 暂停系统 */
+QPushButton#btn_endSystem{
+    border: 1px solid #f05050;
+	color: #f05050;
+}
+QPushButton#btn_endSystem:pressed,
+QPushButton#btn_endSystem:checked:hover{
+	border: 1px solid #d94848;
+    background: #d94848;
+    color: white;
+}
+QPushButton#btn_endSystem:hover,
+QPushButton#btn_endSystem:checked{
+    border: 1px solid  #f05050;
+    background:#f05050;
+    color: white;
+}
+
+/* 开始模拟 */
+QPushButton#btn_startSystem{
+    border: 1px solid #2896ff;
+	color: #2896ff;
+}
+QPushButton#btn_startSystem:hover, 
+QPushButton#btn_startSystem:checked{
+    border: 1px solid  #2896ff;
+    background: #2896ff;
+    color: white;
+}
+QPushButton#btn_startSystem:pressed,
+QPushButton#btn_startSystem:checked:hover{
+    border: 1px solid #1e78c8;
+    background: #1e78c8;
+    color: white;
+}
+
+
+QLineEdit, QSpinBox{
+	color: #222230;
+	padding: 6px 12px;
+	border: 1px solid #222230;
+}
+QLineEdit:hover, QSpinBox:hover{
+	color: #222230;
+	border: 1px solid #2896ff;
+}
+
+QSpinBox::up-button {
+   	subcontrol-origin: border;
+	subcontrol-position: top right;
+
+	width: 16px;
+	border-width: 1px;
+}
+QSpinBox::down-button {
+	subcontrol-origin: border;
+	subcontrol-position: bottom right;
+	width: 16px;
+	border-width: 1px;
+	border-top-width: 0;
+}
+
+
+/* btn_done */
+QPushButton#btn_done{
+    padding: 6px 12px;
+    border: 1px solid #2896ff;
+	color: #2896ff;
+}
+QPushButton#btn_done:hover{
+    border: 1px solid  #2896ff;
+    background: #2896ff;
+    color: white;
+}
+QPushButton#btn_done:pressed{
+    border: 1px solid #1e78c8;
+    background: #1e78c8;
+    color: white;
+}
+QPushButton#btn_done:disabled{
+    border: 1px solid #aab;
+    color: #aab;
+}
